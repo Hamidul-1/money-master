@@ -44,7 +44,6 @@ document.getElementById('calculate-btn').addEventListener('click', function (){
             const balanceTotal = incomeInput - expensesTotal;
             balance.innerText = balanceTotal;
         }
-
     }
 });
 
@@ -57,7 +56,7 @@ document.getElementById('save-button').addEventListener('click', function () {
 
     // check error for save input box
     if (incomeInput < 0 || isNaN(incomeInput) || incomeInput == null) {
-        alert('Please Enter a positive Intiger number')
+        alert('Please Enter a positive Integer number')
     }
 
     else {
